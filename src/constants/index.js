@@ -3,6 +3,8 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   chromecast,
   disc02,
@@ -10,16 +12,13 @@ import {
   discordBlack,
   facebook,
   figma,
-  file02,
   framer,
-  homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
   notion,
   photoshop,
-  plusSquare,
   protopie,
   raindrop,
   recording01,
@@ -28,12 +27,15 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
-  searchMd,
   slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  drone,
+  gps,
+  target,
+  agro,
 } from "../assets";
 
 export const navigation = [
@@ -65,19 +67,41 @@ export const navigation = [
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [drone, gps, target, agro];
 
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const p100proServices = [
+  {
+    id: 0,
+    title: "Desempenho Avançado de Carga e Tamanho",
+    desc1:
+      "Projeto dobrável inovador com sistema de potência atualizado, suportando uma carga útil de até 50 kg.",
+    desc2:
+      "Tamanho compacto: dobrável até 62% menor para facilitar o transporte e carregamento.",
+  },
+  {
+    id: 1,
+    title: "Eficiência de Proteção e Espalhamento da Colheita",
+    desc1:
+      "Taxa de fluxo máxima de 22 L/min com XAG RevoSpray 3 e 12 L/min com RevoSpray 2.",
+    desc2:
+      "Eficiência geral de proteção de campo aberto de 19ha/h e 2ha/h para pomares, variando conforme as condições reais.",
+  },
+  {
+    id: 2,
+    title: "Tecnologia de Pulverização e Espalhamento Avançada",
+    desc1:
+      "XAG RevoSpray 3 com bomba peristáltica dupla atualizada, taxa de fluxo de 22 L/min e capacidade do tanque de 50 L.",
+    desc2:
+      "XAG RevoCast 3 permite espalhar um saco de fertilizante em apenas 20 segundos, com taxa máxima de espalhamento de 150 kg/min.",
+  },
+
 ];
 
-export const brainwaveServicesIcons = [
+export const p100proServicesIcons = [
   recording03,
   recording01,
   disc02,
@@ -122,77 +146,78 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
-
+  "Software avançado de mapeamento agrícola para análise aérea de culturas e agricultura digital";
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Sensoriamento Remoto",
+    desc: "Colete imagens usando drones ou importe dados de satélite Sentinel-2 para uma análise aérea precisa.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Processamento Rápido",
+    desc: "Obtenha mapas diretamente no campo em apenas 10 minutos com o novo módulo de radiometria.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Compartilhamento Fácil",
+    desc: "Compartilhe mapas e relatórios em PDF de forma rápida e eficiente via PIX4Dcloud.",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
+    title: "Sensoriamento",
     icon: figma,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
+    title: "Processo",
     icon: notion,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
+    title: "Exploração",
     icon: discord,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
+    title: "Análise",
     icon: slack,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
+    title: "Compartilhamento",
     icon: photoshop,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
+    title: "Integração",
     icon: protopie,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
+    title: "Resultado em Campo",
     icon: framer,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
+    title: "Mapas precisos",
     icon: raindrop,
     width: 38,
     height: 32,
@@ -238,16 +263,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Performance Superior",
+    text: "Desfrute de capacidades de dispersão e pulverização sem precedentes, alcançando taxas de fluxo de até 12 L/min e dispersão de 110 kg/min. Com nossos drones, a eficiência e o rendimento estão garantidos.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Flexibilidade Total",
+    text: "Seja no modo totalmente autônomo ou manual, nossos drones adaptam-se às suas necessidades. Com designs dobráveis e módulos intercambiáveis, a versatilidade está ao seu alcance.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -255,16 +280,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Mapeamento Avançado",
+    text: "Com o software Pix4DFields, mapear campos e pomares nunca foi tão fácil. Parâmetros pré-configurados e planejamento automático de rotas garantem precisão em cada operação.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Segurança Incomparável",
+    text: "Nossos drones são construídos para resistir. Classificações de proteção IPX6K e IPX7 combinadas com sistemas avançados de detecção de obstáculos garantem operações seguras em qualquer ambiente.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -272,18 +297,18 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Eficiência Energética",
+    text: "Otimize suas operações com nossas soluções de energia resfriada a água, garantindo longevidade e desempenho máximo durante cada voo.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Tecnologia de Ponta",
+    text: "Aproveite o poder da tecnologia 4D e do radar adaptativo para uma detecção de obstáculos precisa e um mapeamento detalhado, tudo isso disponível na palma da sua mão com o Pix4DFields.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
   },
 ];

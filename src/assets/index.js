@@ -1,5 +1,3 @@
-import brainwave from "./brainwave.svg";
-import logo from "./logo.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -53,6 +51,8 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
+import droneLogo from "./notification/droneLogo.jpg";
+import pumpkin from "./notification/pumpkin.svg";
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
@@ -68,6 +68,8 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -76,19 +78,26 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import drone from "./drone.png";
-import fields from "./fields.png";
+import logo from "./logo.png";
 import dronewpp from "./dronewpp.jpg";
 
-
+import drone from "./drone.svg";
+import collage from "./collaboration/collage.png";
+import target from "./target.svg";
+import droneSpeed from "./droneSpeed.svg";
+import gps from "./gps.svg";
+import agro from "./agro.svg";
 export {
+  collage,
+  droneSpeed,
+  droneLogo,
+  pumpkin,
   dronewpp,
-  
-  fields,
-
   drone,
+  gps,
+  target,
+  agro,
   logo,
-  brainwave,
   check,
   check2,
   loading1,
@@ -150,6 +159,8 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   discordBlack,
   facebook,

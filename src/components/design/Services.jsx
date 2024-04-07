@@ -17,9 +17,8 @@ export const Gradient = () => {
 
 export const PhotoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
-      Hey Brainwave, enhance this photo
-      <ChatBubbleWing className="absolute left-full bottom-0" />
+    <div className="absolute top-2 right-2 max-w-[17.5rem] py-8 px-8 bg-slate-600/40 backdrop-blur-xl rounded-xl font-code text-base lg:top-2 lg:right-[5] lg:max-w-[25rem]">
+      Dobrável, com capacidade de 20 kg e troca rápida entre sistemas de pulverização e espalhamento. Ideal para agricultura de precisão, possui proteção IPX6K e eficiência em áreas de até 13 hectares.
     </div>
   );
 };
