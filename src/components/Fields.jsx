@@ -1,10 +1,10 @@
 import { collage, check } from "../assets";
 import { collabContent, collabText } from "../constants";
-import Button from "./design/Button";
 import Section from "./Section";
 import Roadmap from "./Roadmap";
-import Pricing from "./Pricing";
-
+import Heading from "./Heading";
+import PricingList from "./PricingList";
+import { LeftLine, RightLine } from "./design/Pricing";
 
 const Fields = () => {
   return (
@@ -12,7 +12,9 @@ const Fields = () => {
       <div className="container lg:flex">
         <div className="max-w-[35rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            <span className="font-thin text-lime-400">PIX4D</span><span className="font-bold text-lime-400">fields</span> para mapeamento agrícola e análise aérea avançada
+            <span className="font-thin text-lime-400">PIX4D</span>
+            <span className="font-bold text-lime-400">fields</span> para
+            mapeamento agrícola e análise aérea avançada
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -37,8 +39,22 @@ const Fields = () => {
           <img src={collage} alt="" className="w-[80rem] -ml-[5rem]" />
         </div>
       </div>
-      <Roadmap/>
-      <Pricing />
+      <section>
+        <Roadmap />
+      </section>
+      <Section className="overflow-hidden" id="pricing">
+        <div className="container relative z-2">
+          <Heading
+            tag="Inicie sua jornada Pix4d"
+            title="Pague uma vez, use o ano inteiro."
+          />
+          <div className="relative flex justify-center">
+            <PricingList />
+          </div>
+
+          <div className="flex justify-center mt-10"></div>
+        </div>
+      </Section>
     </Section>
   );
 };

@@ -6,7 +6,7 @@ export const LeftLine = () => {
       <img
         className="w-full"
         src={lines}
-        width={1480}
+        width={1800}
         height={177}
         alt="Lines"
       />

@@ -1,11 +1,11 @@
 
 import Section from "./Section";
 import { roadmap } from "../constants";
-import { grid} from "../assets";
+import { grid } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden">
     <div className="container md:pb-10">
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
