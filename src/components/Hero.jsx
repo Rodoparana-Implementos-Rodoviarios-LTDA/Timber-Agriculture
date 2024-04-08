@@ -22,7 +22,7 @@ const Hero = (className) => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Revolucione a Agricultura com <span className="text-amber-500">Drones</span> e Mapeamento {` `}
+            Revolucione a Agricultura com <span className="text-red-700">Drones</span> e Mapeamento {` `}
             <span className="inline-block relative">
                Topográfico{" "}
               <img

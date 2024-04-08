@@ -35,7 +35,8 @@ const Xag = () => {
                 </h4>
                 <h5>Agricultural Drone</h5>
               </div>
-              <p className="h5 mb-[3rem] text-stone-200">Pro em cada Voo</p>
+              <p className="h5 text-stone-200">Pro em cada Voo</p>
+              <p className="mb-[3rem] text-stone-400">R$200.000,00</p>
               <ul className="body-2">
                 {p100proServices.map((item, index) => (
                   <li
@@ -47,7 +48,6 @@ const Xag = () => {
                   </li>
                 ))}
               </ul>
-
             </div>
           </div>
 
@@ -63,6 +63,7 @@ const Xag = () => {
                       </span>
                     </h4>
                     <h5>Agricultural Drone</h5>
+                    <p className="mb-[0.5rem] text-stone-400">R$200.000,00</p>
                   </div>
                   <p className="body-2 mb-[2rem] text-n-1">
                     Dobrável, com capacidade de 20 kg e troca rápida entre
@@ -104,6 +105,7 @@ const Xag = () => {
                       </span>
                     </h4>
                     <h5>Agricultural Drone</h5>
+                    <p className="mb-[0.5rem] text-stone-400">R$200.000,00</p>
                   </div>
                   <p className="body-2 mb-[2rem] text-n-1">
                     Um avançado sistema separável que integra módulos de
