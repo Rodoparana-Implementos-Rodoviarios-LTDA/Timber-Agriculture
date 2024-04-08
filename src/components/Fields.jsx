@@ -2,6 +2,9 @@ import { collage, check } from "../assets";
 import { collabContent, collabText } from "../constants";
 import Button from "./design/Button";
 import Section from "./Section";
+import Roadmap from "./Roadmap";
+import Pricing from "./Pricing";
+
 
 const Fields = () => {
   return (
@@ -36,6 +39,8 @@ const Fields = () => {
           <img src={collage} alt="" className="w-[80rem] -ml-[5rem]" />
         </div>
       </div>
+      <Roadmap/>
+      <Pricing />
     </Section>
   );
 };
