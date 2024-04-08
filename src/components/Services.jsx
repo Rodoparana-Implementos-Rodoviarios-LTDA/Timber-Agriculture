@@ -84,9 +84,9 @@ const Services = () => {
               </div>
               <div className="absolute bottom-0 left-0 w-full overflow-hidden h-full pointer-events-none md:h-auto md:w-[39.4rem] rounded-3xl">
                 <img
-                  src={service3}
+                  src={service2}
                   className="w-full h-full object-cover"
-                  alt="Scary robot"
+                  alt="V50 2023"
                 />
               </div>
             </div>
