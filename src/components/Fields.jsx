@@ -28,8 +28,6 @@ const Fields = () => {
               </li>
             ))}
           </ul>
-
-          <Button href="/pricing" green> saiba mais </Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[50rem] mt-4">
