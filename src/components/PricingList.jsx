@@ -1,10 +1,10 @@
 import { check } from "../assets";
 import { pricing } from "../constants";
-import Button from "./Button";
+import Button from "./design/Button";
 
 const PricingList = () => {
   return (
-    <div className="flex gap-[1rem] max-lg:flex-wrap ">
+    <div className="flex gap-[1rem] ">
       {pricing.map((item) => (
         <div
           key={item.id}
@@ -19,22 +19,14 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="h3">$</div>
+                <div className="h3">R$</div>
                 <div className="text-[5.5rem] leading-none font-bold">
                   {item.price}
                 </div>
+                <div className="h3">,00</div>
               </>
             )}
           </div>
-
-          <Button
-            className="w-1/2 mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
-            white={!!item.price}
-          >
-            {item.price ? "Get started" : "Contact us"}
-          </Button>
-
           <ul>
             {item.features.map((feature, index) => (
               <li
@@ -46,6 +38,7 @@ const PricingList = () => {
               </li>
             ))}
           </ul>
+          <Button className={"mt-7"} href="/contato">Saiba mais</Button>
         </div>
       ))}
     </div>

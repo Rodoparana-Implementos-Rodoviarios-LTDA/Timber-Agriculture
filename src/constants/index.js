@@ -219,15 +219,15 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Plano Anual",
+    description: "Aplicativo desktop com licença flutuante (1 dispositivo por vez).",
+    price: "8.199",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Processamento de desktop ilimitado e saídas de alta resolução.",
+      "Suporte pessoal e atualizações incluídas durante sua assinatura.",
+      "Assinatura anual recorrente. Cancele a qualquer momento.",
     ],
-  }
+  },
 ];
 
 export const benefits = [

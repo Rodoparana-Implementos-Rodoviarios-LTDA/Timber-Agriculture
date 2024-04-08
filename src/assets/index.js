@@ -45,6 +45,7 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
+import payment from "./roadmap/payment.svg";
 import roadmap1 from "./roadmap/image-1.svg";
 import roadmap2 from "./roadmap/image-2.svg";
 import roadmap3 from "./roadmap/image-3.svg";
@@ -89,6 +90,7 @@ import gps from "./gps.svg";
 import agro from "./agro.svg";
 export {
   collage,
+  payment,
   droneSpeed,
   droneLogo,
   pumpkin,

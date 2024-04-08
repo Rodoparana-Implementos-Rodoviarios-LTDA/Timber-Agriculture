@@ -1,10 +1,9 @@
-import { collage, check } from "../assets";
+import { payment, collage, check } from "../assets";
 import { collabContent, collabText } from "../constants";
 import Section from "./Section";
 import Roadmap from "./Roadmap";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
-import { LeftLine, RightLine } from "./design/Pricing";
 
 const Fields = () => {
   return (
@@ -43,13 +42,22 @@ const Fields = () => {
         <Roadmap />
       </section>
       <Section className="overflow-hidden" id="pricing">
-        <div className="container relative z-2">
+        <div className="container relative z-1 -mt-20">
           <Heading
             tag="Inicie sua jornada Pix4d"
             title="Pague uma vez, use o ano inteiro."
           />
           <div className="relative flex justify-center">
+            <img
+              className="w-1/2"
+              src={payment}
+              width={550}
+              height={550}
+              alt="Grid"
+            />
+
             <PricingList />
+            
           </div>
 
           <div className="flex justify-center mt-10"></div>

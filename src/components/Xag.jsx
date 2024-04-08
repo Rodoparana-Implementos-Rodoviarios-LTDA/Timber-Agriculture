@@ -2,13 +2,8 @@ import Section from "./Section";
 import Heading from "./Heading";
 import Button from "./design/Button";
 import { service1, service2, service3 } from "../assets";
-import { p100proServices, p100proServicesIcons } from "../constants";
-import {
-  PhotoChatMessage,
-  Gradient,
-  VideoBar,
-  VideoChatMessage,
-} from "./design/Services";
+import { p100proServices } from "../constants";
+import { Gradient } from "./design/Services";
 
 const Xag = () => {
   return (
@@ -52,9 +47,7 @@ const Xag = () => {
                   </li>
                 ))}
               </ul>
-              <Button href="/pricing" white>
-                Saiba mais
-              </Button>
+
             </div>
           </div>
 
