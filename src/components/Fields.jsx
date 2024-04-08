@@ -1,10 +1,9 @@
 import { collage, check } from "../assets";
 import { collabContent, collabText } from "../constants";
-import Button from "./Button";
+import Button from "./design/Button";
 import Section from "./Section";
-import Roadmap from "./Roadmap";
-import Pricing from "./Pricing";
-const Collaboration = () => {
+
+const Fields = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
@@ -37,10 +36,8 @@ const Collaboration = () => {
           <img src={collage} alt="" className="w-[80rem] -ml-[5rem]" />
         </div>
       </div>
-      <Roadmap/>
-      <Pricing />
     </Section>
   );
 };
 
-export default Collaboration;
+export default Fields;

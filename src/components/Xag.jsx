@@ -1,11 +1,16 @@
-import Heading from "../z-design/Heading";
-import Section from "../z-design/Section";
-import Button from "../z-design/Button";
+import Section from "./Section";
+import Heading from "./Heading";
+import Button from "./design/Button";
+import { service1, service2, service3 } from "../assets";
+import { p100proServices, p100proServicesIcons } from "../constants";
+import {
+  PhotoChatMessage,
+  Gradient,
+  VideoBar,
+  VideoChatMessage,
+} from "./design/Services";
 
-import { service1, service2, service3 } from "../../assets";
-import { p100proServices } from "../../constants";
-
-const Services = () => {
+const Xag = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -130,4 +135,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Xag;
