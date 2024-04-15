@@ -82,6 +82,8 @@ import twitter from "./socials/twitter.svg";
 import logo from "./logo.png";
 import dronewpp from "./dronewpp.jpg";
 
+import vitagran from "./logo/vitagran.png"
+
 import drone from "./drone.svg";
 import collage from "./collaboration/collage.png";
 import target from "./target.svg";
@@ -91,6 +93,7 @@ import agro from "./agro.svg";
 export {
   collage,
   payment,
+  vitagran,
   droneSpeed,
   droneLogo,
   pumpkin,

@@ -9,7 +9,7 @@ const Benefits = () => {
     <Section id="features">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
+          className="md:max-w-md text-center lg:max-w-2xl"
           title="Operação Inteligente e Precisa"
         />
 

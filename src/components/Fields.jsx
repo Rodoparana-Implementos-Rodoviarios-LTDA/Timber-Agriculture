@@ -8,7 +8,7 @@ import PricingList from "./PricingList";
 const Fields = () => {
   return (
     <Section crosses>
-      <div className="container lg:flex">
+      <div className="container md:-mt-20 lg:flex">
         <div className="max-w-[35rem]">
           <h2 className="h2 mb-4 md:mb-8">
             <span className="font-thin text-lime-400">PIX4D</span>
@@ -35,21 +35,21 @@ const Fields = () => {
           <p className="body-2 mb-2 text-lime-200 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
             {collabText}
           </p>
-          <img src={collage} alt="" className="w-[80rem] -ml-[5rem]" />
+          <img src={collage} alt="" className="w-[80rem] md:-ml-[5rem]" />
         </div>
       </div>
       <section>
         <Roadmap />
       </section>
       <Section className="overflow-hidden" id="pricing">
-        <div className="container relative z-1 -mt-20">
+        <div className="container relative z-1 -mt-20 text-center">
           <Heading
             tag="Inicie sua jornada Pix4d"
             title="Pague uma vez, use o ano inteiro."
           />
           <div className="relative flex justify-center">
             <img
-              className="w-1/2"
+              className="hidden md:block md:w-1/2"
               src={payment}
               width={550}
               height={550}

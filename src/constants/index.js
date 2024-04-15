@@ -31,7 +31,7 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  vitagran,
   drone,
   gps,
   target,
@@ -71,35 +71,39 @@ export const heroIcons = [drone, gps, target, agro];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [vitagran, vitagran, vitagran, vitagran, vitagran];
 
 export const p100proServices = [
   {
     id: 0,
     title: "Desempenho Avançado de Carga e Tamanho",
-    desc1:
-      "Projeto dobrável inovador com sistema de potência atualizado, suportando uma carga útil de até 50 kg.",
-    desc2:
-      "Tamanho compacto: dobrável até 62% menor para facilitar o transporte e carregamento.",
-  },
+    },
   {
     id: 1,
     title: "Eficiência de Proteção e Espalhamento da Colheita",
-    desc1:
-      "Taxa de fluxo máxima de 22 L/min com XAG RevoSpray 3 e 12 L/min com RevoSpray 2.",
-    desc2:
-      "Eficiência geral de proteção de campo aberto de 19ha/h e 2ha/h para pomares, variando conforme as condições reais.",
-  },
+   },
   {
     id: 2,
     title: "Tecnologia de Pulverização e Espalhamento Avançada",
-    desc1:
-      "XAG RevoSpray 3 com bomba peristáltica dupla atualizada, taxa de fluxo de 22 L/min e capacidade do tanque de 50 L.",
-    desc2:
-      "XAG RevoCast 3 permite espalhar um saco de fertilizante em apenas 20 segundos, com taxa máxima de espalhamento de 150 kg/min.",
   },
 
 ];
+export const v50Services = [
+  {
+    id: 0,
+    title: "Capacidade de 20 kg para manejo eficiente de produtos agrícolas.",
+    },
+  {
+    id: 1,
+    title: "Troca rápida entre sistemas de pulverização e espalhamento para versatilidade operacional.",
+   },
+  {
+    id: 2,
+    title: "Proteção IPX6K e eficiência comprovada em áreas de até 13 hectares, ideal para agricultura de precisão.",
+  },
+
+];
+
 
 export const p100proServicesIcons = [
   recording03,
