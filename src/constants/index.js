@@ -9,7 +9,6 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
   facebook,
   figma,
   framer,
@@ -29,41 +28,37 @@ import {
   roadmap4,
   slack,
   sliders04,
-  telegram,
-  twitter,
+  lider,
   vitagran,
   drone,
   gps,
   target,
+  texag,
+  rodomaq,
+  brava,
   agro,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Detalhes",
+    url: "#details",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "PIX4Dfields",
+    url: "#pix",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Drones XAG",
+    url: "#xag",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "5",
-    title: "Contato",
-    url: "#login",
-    onlyMobile: true,
+    title: "Encontrar Revendas",
+    url: "#location",
   },
 ];
 
@@ -71,7 +66,7 @@ export const heroIcons = [drone, gps, target, agro];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [vitagran, vitagran, vitagran, vitagran, vitagran];
+export const companyLogos = [texag, vitagran, lider, rodomaq, brava];
 
 export const p100proServices = [
   {
@@ -113,7 +108,7 @@ export const p100proServicesIcons = [
   sliders04,
 ];
 
-export const roadmap = [
+export const field = [
   {
     id: "0",
     title: "Exploração",
@@ -158,65 +153,6 @@ export const collabContent = [
     id: "2",
     title: "Compartilhamento Fácil",
     desc: "Compartilhe mapas e relatórios em PDF de forma rápida e eficiente via PIX4Dcloud.",
-  },
-];
-
-export const collabApps = [
-  {
-    id: "0",
-    title: "Sensoriamento",
-    icon: figma,
-    width: 26,
-    height: 36,
-  },
-  {
-    id: "1",
-    title: "Processo",
-    icon: notion,
-    width: 34,
-    height: 36,
-  },
-  {
-    id: "2",
-    title: "Exploração",
-    icon: discord,
-    width: 36,
-    height: 28,
-  },
-  {
-    id: "3",
-    title: "Análise",
-    icon: slack,
-    width: 34,
-    height: 35,
-  },
-  {
-    id: "4",
-    title: "Compartilhamento",
-    icon: photoshop,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "5",
-    title: "Integração",
-    icon: protopie,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "6",
-    title: "Resultado em Campo",
-    icon: framer,
-    width: 26,
-    height: 34,
-  },
-  {
-    id: "7",
-    title: "Mapas precisos",
-    icon: raindrop,
-    width: 38,
-    height: 32,
   },
 ];
 

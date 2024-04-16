@@ -1,14 +1,14 @@
 
 import Section from "./Section";
-import { roadmap } from "../constants";
+import { field } from "../constants";
 import { grid } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
-const Roadmap = () => (
+const FieldCard = () => (
   <Section className="overflow-hidden">
     <div className="container md:pb-10">
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.map((item) => {
+        {field.map((item) => {
           return (
             <div
               className="md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] bg-lime-500"
@@ -48,4 +48,4 @@ const Roadmap = () => (
   </Section>
 );
 
-export default Roadmap;
+export default FieldCard;

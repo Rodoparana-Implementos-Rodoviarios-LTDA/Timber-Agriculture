@@ -82,7 +82,11 @@ import twitter from "./socials/twitter.svg";
 import logo from "./logo.png";
 import dronewpp from "./dronewpp.jpg";
 
+import rodomaq from "./logo/rodomaq.png"
+import texag from "./logo/texag.png"
 import vitagran from "./logo/vitagran.png"
+import lider from "./logo/lider.png"
+import brava from "./logo/brava.png"
 
 import drone from "./drone.svg";
 import collage from "./collaboration/collage.png";
@@ -91,6 +95,10 @@ import droneSpeed from "./droneSpeed.svg";
 import gps from "./gps.svg";
 import agro from "./agro.svg";
 export {
+  brava,
+  lider,
+  texag,
+  rodomaq,
   collage,
   payment,
   vitagran,

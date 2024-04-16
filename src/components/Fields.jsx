@@ -1,13 +1,13 @@
 import { payment, collage, check } from "../assets";
 import { collabContent, collabText } from "../constants";
 import Section from "./Section";
-import Roadmap from "./Roadmap";
+import FieldCard from "./FieldCard";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 
 const Fields = () => {
   return (
-    <Section crosses>
+    <Section crosses id="pix">
       <div className="container md:-mt-20 lg:flex">
         <div className="max-w-[35rem]">
           <h2 className="h2 mb-4 md:mb-8">
@@ -39,7 +39,7 @@ const Fields = () => {
         </div>
       </div>
       <section>
-        <Roadmap />
+        <FieldCard />
       </section>
       <Section className="overflow-hidden" id="pricing">
         <div className="container relative z-1 -mt-20 text-center">
