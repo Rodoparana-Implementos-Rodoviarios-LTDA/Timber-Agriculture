@@ -1,8 +1,13 @@
+import { useState } from "react";
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./design/Button";
+import OrcamentoDialog from "./OrcamentoDialog";
 
 const PricingList = () => {
+  const [dialogOpen, setDialogOpen] = useState(false); // Estado para controlar a abertura do diálogo
+  const [produtoSelecionado, setProdutoSelecionado] = useState(""); // Estado para armazenar o produto selecionado
+
   return (
     <div className="flex gap-[1rem] ">
       {pricing.map((item) => (
@@ -38,9 +43,21 @@ const PricingList = () => {
               </li>
             ))}
           </ul>
-          <Button className={"mt-7"} href="/contato">Saiba mais</Button>
+          <Button
+            white
+            onClick={() => {
+              setProdutoSelecionado("PIX4D");
+              setDialogOpen(true);
+            }}
+          >
+            Orçamento
+          </Button>
         </div>
       ))}
+      <OrcamentoDialog
+        isOpen={dialogOpen}
+        onClose={() => setDialogOpen(false)}
+      />
     </div>
   );
 };

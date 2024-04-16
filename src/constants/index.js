@@ -72,33 +72,32 @@ export const p100proServices = [
   {
     id: 0,
     title: "Desempenho Avançado de Carga e Tamanho",
-    },
+  },
   {
     id: 1,
     title: "Eficiência de Proteção e Espalhamento da Colheita",
-   },
+  },
   {
     id: 2,
     title: "Tecnologia de Pulverização e Espalhamento Avançada",
   },
-
 ];
 export const v50Services = [
   {
     id: 0,
     title: "Capacidade de 20 kg para manejo eficiente de produtos agrícolas.",
-    },
+  },
   {
     id: 1,
-    title: "Troca rápida entre sistemas de pulverização e espalhamento para versatilidade operacional.",
-   },
+    title:
+      "Troca rápida entre sistemas de pulverização e espalhamento para versatilidade operacional.",
+  },
   {
     id: 2,
-    title: "Proteção IPX6K e eficiência comprovada em áreas de até 13 hectares, ideal para agricultura de precisão.",
+    title:
+      "Proteção IPX6K e eficiência comprovada em áreas de até 13 hectares, ideal para agricultura de precisão.",
   },
-
 ];
-
 
 export const p100proServicesIcons = [
   recording03,
@@ -160,7 +159,8 @@ export const pricing = [
   {
     id: "0",
     title: "Plano Anual",
-    description: "Aplicativo desktop com licença flutuante (1 dispositivo por vez).",
+    description:
+      "Aplicativo desktop com licença flutuante (1 dispositivo por vez).",
     price: "8.199",
     features: [
       "Processamento de desktop ilimitado e saídas de alta resolução.",
@@ -236,4 +236,33 @@ export const socials = [
     iconUrl: facebook,
     url: "#",
   },
+];
+export const estadosBrasileiros = [
+  { id: 1, name: "Acre" },
+  { id: 2, name: "Alagoas" },
+  { id: 3, name: "Amapá" },
+  { id: 4, name: "Amazonas" },
+  { id: 5, name: "Bahia" },
+  { id: 6, name: "Ceará" },
+  { id: 7, name: "Distrito Federal" },
+  { id: 8, name: "Espírito Santo" },
+  { id: 9, name: "Goiás" },
+  { id: 10, name: "Maranhão" },
+  { id: 11, name: "Mato Grosso" },
+  { id: 12, name: "Mato Grosso do Sul" },
+  { id: 13, name: "Minas Gerais" },
+  { id: 14, name: "Pará" },
+  { id: 15, name: "Paraíba" },
+  { id: 16, name: "Paraná" },
+  { id: 17, name: "Pernambuco" },
+  { id: 18, name: "Piauí" },
+  { id: 19, name: "Rio de Janeiro" },
+  { id: 20, name: "Rio Grande do Norte" },
+  { id: 21, name: "Rio Grande do Sul" },
+  { id: 22, name: "Rondônia" },
+  { id: 23, name: "Roraima" },
+  { id: 24, name: "Santa Catarina" },
+  { id: 25, name: "São Paulo" },
+  { id: 26, name: "Sergipe" },
+  { id: 27, name: "Tocantins" },
 ];
