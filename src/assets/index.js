@@ -83,11 +83,13 @@ import logo from "./logo.png";
 import dronewpp from "./dronewpp.jpg";
 import revendas from "./revendas.png";
 
-import rodomaq from "./logo/rodomaq.png"
-import texag from "./logo/texag.png"
-import vitagran from "./logo/vitagran.png"
-import lider from "./logo/lider.png"
-import brava from "./logo/brava.png"
+import rodomaq from "./logo/rodomaq.png";
+import texag from "./logo/texag.png";
+import vitagran from "./logo/vitagran.png";
+import lider from "./logo/lider.png";
+import brava from "./logo/brava.png";
+import xagBL from "./logo/XagBL.png";
+import xagWT from "./logo/XagWT.png";
 
 import drone from "./drone.svg";
 import collage from "./collaboration/collage.png";
@@ -97,6 +99,8 @@ import gps from "./gps.svg";
 import agro from "./agro.svg";
 export {
   revendas,
+  xagBL,
+  xagWT,
   brava,
   lider,
   texag,
