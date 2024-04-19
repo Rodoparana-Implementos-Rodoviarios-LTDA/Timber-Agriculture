@@ -1,7 +1,7 @@
 import EstadoDropdown from "./EstadoDropdown";
 import { useState } from 'react';
 
-const FormularioLead = () => {
+const FormularioLead = ({ produtoSelecionado }) => {
   const [selectedEstado, setSelectedEstado] = useState("");
 
   const handleEstadoChange = (estado) => {
@@ -11,8 +11,9 @@ const FormularioLead = () => {
   return (
     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4T000000Fw59" method="POST">
       <input type="hidden" name="oid" value="00D4T000000Fw59"/>
-      <input type="hidden" name="estado" value={selectedEstado} /> {/* Campo oculto para o estado selecionado */}
+      <input type="hidden" name="00N4T00000700nC" value={selectedEstado} /> {/* Campo oculto para o estado selecionado */}
       <input type="hidden" name="retURL" value="http://agriculture.grupotimber.com.br"/>
+      <input type="hidden" name="00NNp000006pQ6n" value={produtoSelecionado}/>
       <input type="hidden" name="lead_source" id="lead_source" value="Timber Agriculture"/>
       <label htmlFor="last_name">Nome Completo: <span className="text-red-500">*</span></label>
       <input
@@ -20,6 +21,7 @@ const FormularioLead = () => {
         name="last_name"
         type="text"
         className="relative w-full cursor-default rounded-md bg-zinc-900 py-1.5 pl-3 pr-10 text-left text-gray-100 shadow-sm ring-1 ring-inset ring-rose-700 focus:outline-none focus:ring-2 focus:ring-rose-900 sm:text-sm sm:leading-6 mt-2 mb-5"
+        required
       />
       <br />
 
@@ -29,7 +31,7 @@ const FormularioLead = () => {
         name="company"
         type="text"
         className="relative w-full cursor-default rounded-md bg-zinc-900 py-1.5 pl-3 pr-10 text-left text-gray-100 shadow-sm ring-1 ring-inset ring-rose-700 focus:outline-none focus:ring-2 focus:ring-rose-900 sm:text-sm sm:leading-6 mt-2 mb-5"
-      />
+        />
       <br />
 
       <label htmlFor="email" >Email: <span className="text-red-500">*</span></label>
@@ -38,14 +40,16 @@ const FormularioLead = () => {
         name="email"
         type="text"
         className="relative w-full cursor-default rounded-md bg-zinc-900 py-1.5 pl-3 pr-10 text-left text-gray-100 shadow-sm ring-1 ring-inset ring-rose-700 focus:outline-none focus:ring-2 focus:ring-rose-900 sm:text-sm sm:leading-6 mt-2 mb-5"
+        required
       />
       <br />
-      <label htmlFor="00N4T00000700nV">CEP: <span className="text-red-500">*</span></label>
+      <label htmlFor="00N4T00000700nD">CEP: <span className="text-red-500">*</span></label>
       <input
-        id="00N4T00000700nV"
-        name="00N4T00000700nV"
+        id="zip"
+        name="zip"
         type="text"
         className="relative w-full cursor-default rounded-md bg-zinc-900 py-1.5 pl-3 pr-10 text-left text-gray-100 shadow-sm ring-1 ring-inset ring-rose-700 focus:outline-none focus:ring-2 focus:ring-rose-900 sm:text-sm sm:leading-6 mt-2 mb-5"
+        required
       />
       <div className="flex flex-col">
         <EstadoDropdown onChange={handleEstadoChange} /> {/* Passando a função de callback para capturar o estado selecionado */}

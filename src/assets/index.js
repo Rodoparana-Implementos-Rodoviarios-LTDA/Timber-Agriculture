@@ -81,6 +81,7 @@ import twitter from "./socials/twitter.svg";
 
 import logo from "./logo.png";
 import dronewpp from "./dronewpp.jpg";
+import revendas from "./revendas.png";
 
 import rodomaq from "./logo/rodomaq.png"
 import texag from "./logo/texag.png"
@@ -95,6 +96,7 @@ import droneSpeed from "./droneSpeed.svg";
 import gps from "./gps.svg";
 import agro from "./agro.svg";
 export {
+  revendas,
   brava,
   lider,
   texag,

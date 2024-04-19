@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import OrcamentoDialog from './OrcamentoDialog';
 import Section from "./Section";
@@ -9,9 +8,12 @@ import { v50Services, p100proServices } from "../constants";
 import { Gradient } from "./design/Services";
 
 const Xag = () => {
-  const [dialogOpen, setDialogOpen] = useState(false); // Estado para controlar a abertura do diálogo
+  const [dialogOpen, setDialogOpen] = useState(false);
   const [produtoSelecionado, setProdutoSelecionado] = useState(""); // Estado para armazenar o produto selecionado
 
+  const handleProdutoSelecionado = (produto) => {
+    setProdutoSelecionado(produto);
+  };
   return (
     <Section id="xag">
       <div className="container">
@@ -92,7 +94,7 @@ const Xag = () => {
                     </h5>
                   </li>
                 ))}
-                <Button white onClick={() => setDialogOpen(true)}>Orçamento</Button>
+                <Button white onClick={() => { setProdutoSelecionado("V50"); setDialogOpen(true); }}>Orçamento</Button>
               </ul>
             </div>
             <div className="absolute top-0 right-0 w-full h-full overflow-hidden rounded-3xl pointer-events-none md:w-3/5 xl:w-auto">
@@ -106,7 +108,7 @@ const Xag = () => {
             </div>
           </div>
         </div>
-        <OrcamentoDialog isOpen={dialogOpen} onClose={() => setDialogOpen(false)} />
+        <OrcamentoDialog isOpen={dialogOpen} onClose={() => setDialogOpen(false)} produtoSelecionado={produtoSelecionado} />
       </div>
     </Section>
   );
