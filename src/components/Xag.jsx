@@ -1,11 +1,12 @@
-import { useState } from 'react';
-import OrcamentoDialog from './OrcamentoDialog';
+import { useState } from "react";
+import OrcamentoDialog from "./OrcamentoDialog";
 import Section from "./Section";
 import Heading from "./Heading";
 import Button from "./design/Button";
-import { service1, service2 } from "../assets";
+import { service1, service2, revendas } from "../assets";
 import { v50Services, p100proServices } from "../constants";
 import { Gradient } from "./design/Services";
+
 
 const Xag = () => {
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -60,7 +61,15 @@ const Xag = () => {
                     </h5>
                   </li>
                 ))}
-                 <Button white onClick={() => { setProdutoSelecionado("P100 Pro"); setDialogOpen(true); }}>Orçamento</Button>
+                <Button
+                  white
+                  onClick={() => {
+                    setProdutoSelecionado("P100 Pro");
+                    setDialogOpen(true);
+                  }}
+                >
+                  Orçamento
+                </Button>
               </ul>
             </div>
           </div>
@@ -94,7 +103,15 @@ const Xag = () => {
                     </h5>
                   </li>
                 ))}
-                <Button white onClick={() => { setProdutoSelecionado("V50"); setDialogOpen(true); }}>Orçamento</Button>
+                <Button
+                  white
+                  onClick={() => {
+                    setProdutoSelecionado("V50");
+                    setDialogOpen(true);
+                  }}
+                >
+                  Orçamento
+                </Button>
               </ul>
             </div>
             <div className="absolute top-0 right-0 w-full h-full overflow-hidden rounded-3xl pointer-events-none md:w-3/5 xl:w-auto">
@@ -108,7 +125,24 @@ const Xag = () => {
             </div>
           </div>
         </div>
-        <OrcamentoDialog isOpen={dialogOpen} onClose={() => setDialogOpen(false)} produtoSelecionado={produtoSelecionado} />
+        <OrcamentoDialog
+          isOpen={dialogOpen}
+          onClose={() => setDialogOpen(false)}
+          produtoSelecionado={produtoSelecionado}
+        />
+      </div>
+      <div className="mt-20">
+      <Heading
+          title="Estados atendidos"
+          text="Entre em contato conosco para encontrar a melhor revenda para seu negócio."
+        />
+        <img
+          className="w-full h-full object-cover md:object-left"
+          width={500}
+          alt="P100 PRO"
+          height={730}
+          src={revendas}
+        />
       </div>
     </Section>
   );

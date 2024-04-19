@@ -55,11 +55,6 @@ export const navigation = [
     title: "Drones XAG",
     url: "#xag",
   },
-  {
-    id: "3",
-    title: "Encontrar Revendas",
-    url: "#location",
-  },
 ];
 
 export const heroIcons = [drone, gps, target, agro];

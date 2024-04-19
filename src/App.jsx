@@ -14,6 +14,7 @@ const App = () => {
         <Hero />
         <Detalhes />
         <Xag />
+        
         <Fields />
         <Footer />
       </div>
