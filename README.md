@@ -1,12 +1,13 @@
 <div align="center">
-  <img src="/WEBPAGE.png">
-  <h3 align="center">Site da Timber Agriculture</h3>
-
-   <div align="center">
-     Landing Page dos Drones da <b>XAG</b> e do software de mapeamento Topográfico <b>PIX4Dfields</b> em SPA (Single-Page-Application).<br>
-     Ele é responsável pela captação de novos Leads, enviando via <b>Web to Lead</b> para a ORG do <b>Salesforce</b> e é atualmente hospedado pela <a href="https://vercel.com/" target="_blank"><b>Vercel.</b></a>
-    </div>
+  <h1 align="center">Timber Agriculture</h1>
+  <div align="center">
+  <h3 align="center">Página de Destino para os Drones XAG e o Software de Mapeamento Topográfico PIX4Dfields, em um formato de Aplicação de Página Única (SPA).</h3><br><br>
+  <p>  Ele é responsável pela captação de novos Leads, enviando via <b>Web to Lead</b> para a ORG do <b>Salesforce</b> e é atualmente hospedado pela <a href="https://vercel.com/" target="_blank"><b>Vercel.</b></a></p>
+  </div>
+  <br>
+  <img src="/public/WEBPAGE.png" alt="Landing page">
 </div>
+
 
 ## 📋 <a name="table">Table of Contents</a>
 
