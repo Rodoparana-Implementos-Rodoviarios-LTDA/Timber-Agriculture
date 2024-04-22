@@ -8,14 +8,6 @@
   <img src="/public/WEBPAGE.png" alt="Landing page">
 </div>
 
-
-## 📋 <a name="table">Table of Contents</a>
-
-1. ⚙️ [Tech Stack](#tech-stack)
-2. 🔋 [Features](#features)
-3. 🤸 [Quick Start](#quick-start)
-4. 🕸️ [Snippets](#snippets)
-
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Vite
