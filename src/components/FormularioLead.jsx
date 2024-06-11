@@ -1,4 +1,4 @@
-import EstadoDropdown from "./EstadoDropdown";
+{/*import EstadoDropdown from "./EstadoDropdown";
 import { useState } from 'react';
 
 const FormularioLead = ({ produtoSelecionado }) => {
@@ -11,7 +11,7 @@ const FormularioLead = ({ produtoSelecionado }) => {
   return (
     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4T000000Fw59" method="POST">
       <input type="hidden" name="oid" value="00D4T000000Fw59"/>
-      <input type="hidden" name="00N4T00000700nC" value={selectedEstado} /> {/* Campo oculto para o estado selecionado */}
+      <input type="hidden" name="00N4T00000700nC" value={selectedEstado} /> 
       <input type="hidden" name="retURL" value="http://agriculture.grupotimber.com.br"/>
       <input type="hidden" name="00NNp000006pQ6n" value={produtoSelecionado}/>
       <input type="hidden" name="lead_source" id="lead_source" value="Timber Agriculture"/>
@@ -52,7 +52,7 @@ const FormularioLead = ({ produtoSelecionado }) => {
         required
       />
       <div className="flex flex-col">
-        <EstadoDropdown onChange={handleEstadoChange} /> {/* Passando a função de callback para capturar o estado selecionado */}
+        <EstadoDropdown onChange={handleEstadoChange} /> 
       </div>
 
       <input 
@@ -65,3 +65,4 @@ const FormularioLead = ({ produtoSelecionado }) => {
 };
 
 export default FormularioLead;
+*/}
